@@ -45,3 +45,4 @@ class process extends CI_Controller {
       }
     }
   }`
+//More: https://www.itsolutionstuff.com/post/php-codeigniter-curl-post-request-exampleexample.html
