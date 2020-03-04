@@ -322,6 +322,7 @@ Then you just need to set up a cron job that will run this script.
 Example for crontab: 
 
 >  0 0 * * * /usr/bin/php /<path to script>/backup_droplet.php
+    
 > https://crontab.guru/#0_0_*_*_7
     
 #### Cron Job Generated (you may copy & paste it to your crontab):
