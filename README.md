@@ -322,3 +322,19 @@ Then you just need to set up a cron job that will run this script.
 Example for crontab: 
 
 >  0 0 * * * /usr/bin/php /<path to script>/backup_droplet.php
+> https://crontab.guru/#0_0_*_*_7
+    
+#### Cron Job Generated (you may copy & paste it to your crontab):
+
+    0 0 * * 0 /usr/bin/php /backup_droplet.php >/dev/null 2>&1
+
+#### Your cron job will be run at: (5 times displayed)
+
+> -   2020-03-08 00:00:00 UTC
+> -   2020-03-15 00:00:00 UTC
+> -   2020-03-22 00:00:00 UTC
+> -   2020-03-29 00:00:00 UTC
+> -   2020-04-05 00:00:00 UTC
+> -   ...
+
+>> Free cron https://www.easycron.com/
